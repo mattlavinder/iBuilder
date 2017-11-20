@@ -1,0 +1,18 @@
+{
+    "name": "dmi/masterfile_maintenance_builder",
+    "description": "Builder for Masterfile Maintenance",
+    "type": "project",
+    "repositories": [
+        {"type": "composer", "url": "https://repo.packagist.com/datamanagementinc/"},
+        {"packagist.org": false}
+    ],
+    "authors": [
+        {
+            "name": "Matt Lavinder",
+            "email": "mlavinder@data-management.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^2.4"
+    }
+}
